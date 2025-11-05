@@ -1,0 +1,114 @@
+/**
+ * Kashiwazaki SEO OGP Manager - Admin Styles
+ *
+ * @package KashiwazakiSeoOgpManager
+ * @since 1.0.0
+ */
+
+/* Settings Page Styles */
+.ksom-image-upload {
+    margin-top: 5px;
+}
+
+.ksom-image-upload input[type="url"] {
+    margin-bottom: 10px;
+}
+
+.ksom-upload-image-button,
+.ksom-remove-image-button {
+    margin-right: 5px;
+}
+
+.ksom-image-preview {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    display: inline-block;
+}
+
+.ksom-image-preview img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+.ksom-plugin-info {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-left: 4px solid #0073aa;
+}
+
+.ksom-plugin-info h3 {
+    margin-top: 0;
+}
+
+/* Meta Box Styles */
+.ksom-metabox-wrapper {
+    padding: 10px 0;
+}
+
+.ksom-metabox-field {
+    margin-bottom: 20px;
+}
+
+.ksom-metabox-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.ksom-metabox-field input[type="text"],
+.ksom-metabox-field input[type="url"],
+.ksom-metabox-field textarea,
+.ksom-metabox-field select {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ksom-metabox-field textarea {
+    min-height: 100px;
+}
+
+.ksom-metabox-field .description {
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.ksom-button-group {
+    margin-top: 10px;
+}
+
+.ksom-button-group .button {
+    margin-right: 5px;
+}
+
+.ksom-metabox-field .ksom-image-preview {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.ksom-metabox-field .ksom-image-preview img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .ksom-metabox-field input[type="text"],
+    .ksom-metabox-field input[type="url"],
+    .ksom-metabox-field textarea,
+    .ksom-metabox-field select {
+        width: 100%;
+    }
+
+    .ksom-image-preview img {
+        max-width: 100%;
+    }
+}
